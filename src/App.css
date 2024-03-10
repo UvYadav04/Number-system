@@ -1,0 +1,391 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0f5af0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  /* margin-bottom: 20px; */
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+div.navbar div.left {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 0;
+  /* background-color: red; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.navbar div.right {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  border: none;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.navbar #navlink {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  font-size: 1.9rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#navlink:hover {
+  border: 1px solid white;
+  background-color: rgb(73, 73, 73);
+}
+
+h1.header {
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.main2 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  height: 680px;
+  margin-top: 0px;
+}
+
+div.main2 .left {
+  background-color: rgb(36, 36, 36);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin: 20px;
+
+}
+
+div.main2 .right {
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+div.main2 .right img {
+  height: 80%;
+  width: 80%;
+}
+
+@media(max-width:284px) {
+  body {
+    background-color: green;
+  }
+
+  h1.header {
+    font-size: 1.5rem;
+    margin-left: 0;
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  div.navbar {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+div.up {
+  height: 30%;
+  width: 100%;
+  /* background-color: green; */
+}
+
+div.down {
+  height: 70%;
+  width: 100%;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+div.right {
+  /* background-color: rgb(132, 34, 44); */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+div.Form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+}
+
+#buttonform {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3rem;
+}
+
+div.link {
+  width: 370px;
+  height: 68px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  align-self: center;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 2px white;
+  align-items: center;
+}
+
+h2.userhello {
+  font-size: 3rem;
+  color: white;
+  margin-left: 20px;
+}
+
+h3.userhello2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  box-sizing: border-box;
+  /* text-shadow: 2px 2px 1px white; */
+  color: white;
+  margin-left: 20px;
+  /* margin-top: 100px; */
+}
+
+div.right img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border: 4px solid white;
+  box-shadow: 2px 2px 1px white;
+}
+
+/* ***********binary**************** */
+
+div.binary {
+  width: 100%;
+  height: 100%;
+
+}
+
+div.mainbinary {
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.contentbinary {
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+div.input1 {
+  width: 100%;
+  height: 55%;
+  /* background-color: blue; */
+  text-align: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+div.show1 {
+  width: 100%;
+  height: 45%;
+  /* background-color: pink; */
+  /* border: 1px solid black; */
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+div.input1 label {
+  font-size: 3rem;
+  font-weight: 600;
+  display: block;
+  /* margin-top: 20 px; */
+}
+
+div.input1 input {
+  font-size: 2rem;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+div.input1 button {
+  align-self: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+div.show1 div.left,
+div.right,
+div.mid {
+  width: 30%;
+  height: 70%;
+  /* background-color: grey; */
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+div.show1 div.left label {
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  /* background-color: red; */
+}
+
+div.show1 div.right label {
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 0px;
+}
+
+div.show1 div.mid label {
+  font-size: 2.4rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 0px;
+}
+
+div.show1 div.left input {
+  font-size: 2.5rem;
+  text-align: center;
+  /* height: 41px; */
+  border: 1px solid black;
+  margin-top: 30px;
+  width: 246px;
+}
+
+div.show1 div.right input {
+  font-size: 2.5rem;
+  text-align: center;
+  /* height: 41px; */
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+div.show1 div.mid input {
+  font-size: 2.5rem;
+  text-align: center;
+  /* height: 41px; */
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 246px;
+  align-self: center;
+}
+
+/* *************binary coloring***************** */
+div.binary {
+  background-color: rgb(0, 0, 0);
+}
+
+div.mainbinary {
+  /* background-color: black; */
+  background-color: gray;
+}
+
+div.contentbinary {
+  /* background-color: gray; */
+  background-color: black;
+  border-radius: 2%;
+  color: white;
+}
+
+
+div.show1 div.left,
+div.right,
+div.mid {
+  border: 1px solid gray;
+}
+
+div.show1 div.left input {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+div.show1 div.mid input {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+div.show1 div.right input {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+}
